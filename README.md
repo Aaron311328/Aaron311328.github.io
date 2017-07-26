@@ -1,84 +1,59 @@
-# stepbystep  
-A jekyll theme, simple and clear, compatible with PC iPad and Phone (RWD)
+flex
+====
 
-## Preview
-#### PC or Pad
-<img style="box-shadow: 10px 10px 5px #888888;border: 1px solid black;" src="https://github.com/jokinkuang/stepbystep/raw/master/article.png"></img>
-#### Mobile
-<div style="box-shadow: 10px 10px 5px #888888;border: 1px solid black;">
-<img style="width:50%;" src="https://github.com/jokinkuang/stepbystep/raw/master/mobile.png"></img>
-<img style="width:50%;" src="https://github.com/jokinkuang/stepbystep/raw/master/mobile2.png"></img>
-</div>
+Flex is a responsive, flexible, [Jekyll](http://jekyllrb.com) theme.
 
-## Features  
+The theme is based on the website [The Development](http://thedevelopment.co).
 
-1. Compatible with PC iPad and Phone (RWD)
-2. Support blogger mood-talk(说说)
-3. Support post subdirs as post categories  
-  `_post/linux/nodejs/2016-9-1-About-Nodejs.md => linux and nodejs would merge into the post categories`
-4. Support pagination
-5. Support pinning posts
+View a demo website [here](http://the-development.github.io/flex/).
 
-## What Must To Be Set!
-```
-title:         # your title
-author:        # your name
-email:         # your email
-description: > # your description
+Installation
+===
+To use this theme, you would do so like any other Jekyll setup:
 
-domain: "http://yourdomain.github.io" # your domain
+1. Install Jekyll: `gem install jekyll`
+2. Fork this repository to your machine
+3. `cd` to the forked directory and run `jekyll serve --watch`
+4. Celebrate and dance.
 
-page_size: 2   # your pagination page size
+Contributions
+===
 
-duoshuo_short_name: "sbys"              # your duoshuo name xxx.duoshuo.com
-duoshuo_user_uid: "6324572809590735618" # your duoshuo user uid
-duoshuo_user_name: "xk"                 # your duoshuo user name
+In general, there are no strict rules for contributing, only that your code is clean and well structured.
 
-google_analytics_id: ""                 # your google analytics id
-baidu_tongji_id: ""                     # your baidu tongji id
-```
-*NOTE* **If you do NOT set the duoshuo short name, all comments would commit to this demo site !**
+For bugs:
+- To merge a fix, you can simply open a pull request.
+- To report one that is not yet fixed, open an issue.
 
-## Install
-assume the github username is "hello" then:  
+Feature requests:
+- **Always** open an issue first before implementing and proposing a new feature. This is only so I can make sure the theme doesn't become bloated with too many features. This way, I can determine if an idea is something that makes sense for the theme's design.
 
-1. create a repository named "hello.github.io"  
-2. clone this repository  
-  `git clone https://github.com/jokinkuang/stepbystep.git`  
-3. push the whole thing to your repo "hello.github.io"  
-  `git remote set-url origin https://github.com/hello/hello.github.io.git`  
-  `git push origin master`  
-4. browse "hello.github.io"  
+If in doubt, you can always ask me on Twitter: [@jeffxmn](https://twitter.com/jeffxmn)
 
-> if your github username is "world" then replace upper "hello" all to "world"  
+License
+===
 
-## Custom Domain  
-if you want to visit "www.hello.com" instead of "hello.github.io" then:  
+Flex is licensed under the MIT license:
 
-1. create a file named "CNAME" (the file is already exist)  
-2. buy the "www.hello.com" domain  
-3. add following to the "CNAME"  
-  `www.hello.com`  
-4. go to the Shop where your domain bought and set the Domain DNS to:  
-  | prefix | record-type |      host       |  
-  |   www  |   CNAME     | hello.github.io |  
-5. wait a long long time  
-6. browse "www.hello.com"
 
-## Custom Your Site  
-1. you need a [duoshuo](http://www.duoshuo.com) account  
-2. you need a [google-analytics](https://www.google.com/analytics/) account  
-3. all settings are in `_config.yml`
+The MIT License (MIT)
 
-## Other  
-whoever use this theme please add your site to the [wiki](https://github.com/jokinkuang/stepbystep/wiki)  
+Copyright (c) 2013-2014 Jeff Martin
 
-## Bugs
-see [Release](https://github.com/jokinkuang/stepbystep/releases)
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-## How It works  
-[English](http://www.jokinkuang.info/2016/09/03/stey-by-step-to-create-a-jekyll-theme.html)  
-[ 中文 ](http://www.jokinkuang.info/2016/09/03/how-to-create-the-jekyll-theme.html)
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-## License  
-Under The [MIT](https://tldrlegal.com/license/mit-license) License
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
