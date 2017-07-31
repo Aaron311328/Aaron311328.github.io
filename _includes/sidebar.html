@@ -1,7 +1,7 @@
 <!-- sidebar.html -->
 <header class="sidebar-header" role="banner">
 	<a href="{{ site.BASE_PATH }}/">
-		<img src="//www.gravatar.com/avatar/{{site.author.email_md5}}?s=150" class="img-circle" />
+		<img src="http://oty24wb3s.bkt.clouddn.com/portrait.jpeg" class="img-circle" />
 	</a>
 	<h3 class="title">
         <a href="{{ site.BASE_PATH }}/">{{ site.title }}</a>
@@ -13,6 +13,20 @@
 	{{ site.author.bio }}
 </div>
 {% endif %}
+
+<div id="menu-list" class="text-center">
+	<ul class="list-unstyled list-inline">
+		<li>
+			 <a href="{{ site.BASE_PATH }}/">首页</a>
+		</li>
+		<li>
+			 <a href="{{ site.BASE_PATH }}/">所有文章</a>
+		</li>
+		<li>
+			 <a href="{{ site.BASE_PATH }}/">关于我</a>
+		</li>
+	</ul>
+</div>
 
 <div id="contact-list" class="text-center">
 	<ul class="list-unstyled list-inline">
