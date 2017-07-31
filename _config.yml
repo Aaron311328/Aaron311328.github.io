@@ -8,6 +8,11 @@ markdown: kramdown
 disqus: Arron's博客
 google_analytics: Arron's博客
 title: Arron
+language: zh-CN
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+timezone: Asia/Beijing
+since: 2017
 
 defaults:
   -
@@ -20,7 +25,7 @@ description: Stylish Jekyll Theme
 author:
   name: ArronWang
   email: 756793727@qq.com
-  github: https://github.com/Aaron311328
+  github: Aaron311328
   bio: 不是我不明白，这世界变化快
   email_md5: 726351295ec82e145928582f595aa3aa
 
