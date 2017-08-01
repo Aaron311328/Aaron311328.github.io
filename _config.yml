@@ -5,9 +5,9 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
-disqus: Arron's博客
-google_analytics: Arron's博客
-title: Arron
+disqus: Aaron's博客
+google_analytics: Aaron's博客
+title: Aaron
 language: zh-CN
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
@@ -19,11 +19,11 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Arron's博客
+      title: Aaron's博客
 
 description: Stylish Jekyll Theme
 author:
-  name: ArronWang
+  name: AaronWang
   email: 756793727@qq.com
   github: Aaron311328
   bio: 不是我不明白，这世界变化快
