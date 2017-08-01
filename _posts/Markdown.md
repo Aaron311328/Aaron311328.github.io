@@ -1,3 +1,10 @@
+---
+layout: post
+title: Markdown介绍
+categories: [blog]
+tags: [markdown]
+description: markdown intro.
+---
 # Markdown 语法和 MWeb 写作使用说明
 
 ## Markdown 的设计哲学
@@ -8,7 +15,7 @@
     
 <!-- more -->
 
-## 本文约定![](![](![](![](![](![](![]()))))))
+## 本文约定
     
 如果有写 `效果如下：`， 在 MWeb 编辑状态下只有用 `CMD + 4` 或 `CMD + R` 预览才可以看效果。
 

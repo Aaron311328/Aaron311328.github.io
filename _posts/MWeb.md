@@ -1,3 +1,10 @@
+---
+layout: post
+title: MWeb介绍
+categories: [blog]
+tags: [MWeb]
+description: MWeb inro.
+---
 # 欢迎使用 MWeb
 
 首先介绍一下 MWeb 是什么，MWeb 是专业的 Markdown 写作、记笔记、静态博客生成软件。MWeb 使用的是 Github Flavored Markdown 语法，在使用 MWeb 前，建议你一定要去 [MWeb 官网首页](http://zh.mweb.im/) 看一下介绍视频，MWeb 官网也做了比较详细的帮助，建议你也看一下大概内容，帮助的网址为：<http://zh.mweb.im/help.html>。
